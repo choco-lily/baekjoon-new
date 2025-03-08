@@ -1,2 +1,2 @@
-a, b = input().split(' ')
-print(abs(int(a)-int(b)))
+a, b = map(int, input().split())
+print(abs(a-b))
